@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">infoAsginatura</string>
+    <string name="ButtonMoreInfo">More</string>
+    <string name="TituloAsignatura1">Ciencias de la Naturaleza</string>
+    <string name="TituloAsignatura2">Dibujo Técnico</string>
+    <string name="TituloAsignatura3">Informática</string>
+
+    <string name="infoBasicAsig1">Las Ciencias Naturales hincapié en el proceso científico y de
+        investigación. Abarca el mundo natural </string>
 </resources>

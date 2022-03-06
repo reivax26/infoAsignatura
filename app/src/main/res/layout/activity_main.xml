@@ -4,91 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:background="@drawable/border"
+        android:backgroundTint="#85C1E9">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/border">
+        android:background="@drawable/border"
+        android:backgroundTint="#E5E7E9">
 
-        <!--
         <TextView
-            android:id="@+id/text_click"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView clickable!"
-            android:textColor="@android:color/holo_blue_light"
-            android:textStyle="bold"
-            android:clickable="true"
-            />
-            -->
+            android:id="@+id/textViewAsig1"
+            style="@style/TitelAsignatura"
+            android:text="@string/TituloAsignatura1" />
+
+        <TextView
+            android:id="@+id/textView2Asig1"
+            style="@style/infoAsignatura"
+
+            android:text="@string/infoBasicAsig1" />
 
         <Button
-            android:id="@+id/Asignatura1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-           android:background="@color/white">
+            android:id="@+id/button1"
+            style="@style/buton" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                />
-
-        </Button>
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Pictures"
+            tools:srcCompat="@drawable/foto_historia_arte" />
 
     </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/border">
+        android:background="@drawable/border"
+        android:backgroundTint="#E5E7E9">
+
+        <TextView
+            android:id="@+id/textViewAsig2"
+            style="@style/TitelAsignatura"
+            android:text="@string/TituloAsignatura2" />
+
+        <TextView
+            android:id="@+id/textView2Asig2"
+            style="@style/infoAsignatura"
+            android:text="@string/infoBasicAsig1" />
 
         <Button
-            android:id="@+id/Asignatura2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/white">
-
-        </Button>
+            android:id="@+id/button2"
+            style="@style/buton"
+            android:text="@string/ButtonMoreInfo" />
 
     </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/border">
+        android:background="@drawable/border"
+        android:backgroundTint="#E5E7E9">
+
+        <TextView
+            android:id="@+id/textViewAsig3"
+            style="@style/TitelAsignatura"
+            android:text="@string/TituloAsignatura3" />
+
+        <TextView
+            android:id="@+id/textView2Asig3"
+            style="@style/infoAsignatura"
+            android:text="@string/infoBasicAsig1" />
 
         <Button
-            android:id="@+id/Asignatura3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/white">
-
-        </Button>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/border">
-
-        <Button
-            android:id="@+id/Asignatura4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/white">
-
-
-
-        </Button>
+            android:id="@+id/button3"
+            style="@style/buton"
+            android:text="@string/ButtonMoreInfo" />
 
     </FrameLayout>
 

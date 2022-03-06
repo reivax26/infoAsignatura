@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InfoAsginatura">
         <activity
-            android:name=".infoAsig"
+            android:name=".infoAsignatura"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

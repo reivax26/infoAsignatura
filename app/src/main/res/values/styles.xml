@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buton">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawableEnd">@drawable/ic_baseline_arrow_forward_ios_24</item>
+    </style>
+
+    <style name="infoAsignatura">
+        <item name="android:layout_width">198dp</item>
+        <item name="android:layout_height">111dp</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:translationY">25dp</item>
+    <item name="android:layout_gravity">center_horizontal|right|center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="TitelAsignatura">
+        <item name="android:layout_width">289dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Pictures">
+        <item name="android:layout_width">171dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
+</resources>
