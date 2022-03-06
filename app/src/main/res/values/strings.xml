@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">infoAsginatura</string>
-    <string name="ButtonMoreInfo">More</string>
-    <string name="TituloAsignatura1">Ciencias de la Naturaleza</string>
+    <string name="TituloAsignatura1">Historia del arte</string>
     <string name="TituloAsignatura2">Dibujo Técnico</string>
     <string name="TituloAsignatura3">Informática</string>
-
-    <string name="infoBasicAsig1">Las Ciencias Naturales hincapié en el proceso científico y de
-        investigación. Abarca el mundo natural </string>
+    <string name="TitelAsig1">Historia del arte</string>
+    <string name="TitelAsig2">Dibujo Técnico</string>
+    <string name="TitelAsig3">Informática</string>
+    <string name="infoBasicAsig1">Se trata dela disciplina académica cuyo objeto son las obras de arte en su desarrollo histórico y contexto estilístico </string>
+    <string name="infoBasicAsig2">El dibujo técnico es un sistema de representación gráfica de diversos tipos de objetos </string>
+    <string name="infoBasicAsig3"> Informática es la rama de la Ingeniería que estudia el hardware, las redes de datos y el software necesarios para tratar información de forma automática </string>
 </resources>

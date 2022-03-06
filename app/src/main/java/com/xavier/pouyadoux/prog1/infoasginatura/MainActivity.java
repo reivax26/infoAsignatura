@@ -6,14 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.TextView;
-import android.widget.Toast;
-
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
         mInfoAsignatura1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
-
+                MoreInfoAsignatura(view , 1);
             }
         });
 
@@ -36,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mInfoAsignatura2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                MoreInfoAsignatura(view , 2);
             }
         });
 
@@ -44,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mInfoAsignatura3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                MoreInfoAsignatura(view , 3);
             }
         });
 
@@ -52,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void MoreInfoAsignatura(View view){
+    public void MoreInfoAsignatura(View view , int i){
         Intent intent = new Intent(this , infoAsignatura.class);
+        intent.putExtra("Asignatura",i);
         startActivity(intent);
-
     }
 
 }

@@ -10,9 +10,11 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.25"
+        android:layout_weight=".75"
         android:background="@drawable/border"
         android:backgroundTint="#85C1E9">
+
+        <TextView style="@style/TextPrinciplaMain"/>
 
     </FrameLayout>
 
@@ -33,20 +35,21 @@
             style="@style/TitelAsignatura"
             android:text="@string/TituloAsignatura1" />
 
+        <ImageView
+            style="@style/Pictures"
+            android:src="@drawable/historiadelarte"
+            tools:ignore="ContentDescription,ImageContrastCheck">
+        </ImageView>
+
         <TextView
             android:id="@+id/textView2Asig1"
             style="@style/infoAsignatura"
-
             android:text="@string/infoBasicAsig1" />
 
         <Button
             android:id="@+id/button1"
-            style="@style/buton" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            style="@style/Pictures"
-            tools:srcCompat="@drawable/foto_historia_arte" />
+            style="@style/buton"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </FrameLayout>
 
@@ -65,17 +68,24 @@
         <TextView
             android:id="@+id/textViewAsig2"
             style="@style/TitelAsignatura"
-            android:text="@string/TituloAsignatura2" />
+            android:text="@string/TituloAsignatura2"
+            android:contentDescription=""/>
+
+        <ImageView
+            style="@style/Pictures"
+            android:src="@drawable/dibujotecnico"
+            tools:ignore="ContentDescription,ImageContrastCheck"/>
+
 
         <TextView
             android:id="@+id/textView2Asig2"
             style="@style/infoAsignatura"
-            android:text="@string/infoBasicAsig1" />
+            android:text="@string/infoBasicAsig2" />
 
         <Button
             android:id="@+id/button2"
             style="@style/buton"
-            android:text="@string/ButtonMoreInfo" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </FrameLayout>
 
@@ -96,15 +106,21 @@
             style="@style/TitelAsignatura"
             android:text="@string/TituloAsignatura3" />
 
+        <ImageView
+            style="@style/Pictures"
+            android:src="@drawable/informatica"
+            tools:ignore="ContentDescription,ImageContrastCheck">
+        </ImageView>
+
         <TextView
             android:id="@+id/textView2Asig3"
             style="@style/infoAsignatura"
-            android:text="@string/infoBasicAsig1" />
+            android:text="@string/infoBasicAsig3" />
 
         <Button
             android:id="@+id/button3"
             style="@style/buton"
-            android:text="@string/ButtonMoreInfo" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </FrameLayout>
 
