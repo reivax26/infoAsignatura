@@ -65,6 +65,17 @@
 
     <style name="PictureActivity2">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">182dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="TextVActivity2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">84dp</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">60dp</item>
     </style>
 </resources>

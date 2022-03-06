@@ -30,13 +30,19 @@
 
         <ImageView
             android:id="@+id/Picture"
-            android:src="@drawable/dibujotecnico"
-            tools:ignore="ContentDescription,ImageContrastCheck"
-            style="@style/PictureActivity2" />
+            style="@style/PictureActivity2"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <Button
             android:id="@+id/button1"
             style="@style/buttonSecondActivity" />
+
+        <TextView
+            android:id="@+id/infoAsigActivity2"
+            style="@style/TextVActivity2"
+            android:layout_height="309dp" />
+
+
     </FrameLayout>
 
 </LinearLayout>

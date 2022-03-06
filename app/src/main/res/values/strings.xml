@@ -9,4 +9,36 @@
     <string name="infoBasicAsig1">Se trata dela disciplina académica cuyo objeto son las obras de arte en su desarrollo histórico y contexto estilístico </string>
     <string name="infoBasicAsig2">El dibujo técnico es un sistema de representación gráfica de diversos tipos de objetos </string>
     <string name="infoBasicAsig3"> Informática es la rama de la Ingeniería que estudia el hardware, las redes de datos y el software necesarios para tratar información de forma automática </string>
+    <string name="AllInfoAsig1">   <b>Qué aprenderás \n</b>
+Al finalizar este curso de historia del arte podrás: \n\n
+
+    <b>-</b>Comprender la evolución histórica del concepto del arte.\n
+    <b>-</b>Conocer los diferentes periodos históricos del arte, los acontecimientos más importantes y  sus artistas más influyentes.\n
+    <b>-</b>Identificar las técnicas, procesos y herramientas más usadas para la creación de obras de carácter pictórico, escultórico o fotográfico.\n
+    <b>-</b>Aplicar las técnicas y métodos asociados a la creación de obras de arte de diversa naturaleza.\n
+    <b>-</b>Diseñar planes que permitan incluir los procesos asociados al arte, para potenciar la salud y el desarrollo individual humano.\n
+</string>
+
+    <string name="AllInfoAsig2">   <b>Qué aprenderás \n</b>
+Al finalizar este curso de dibujo técnico tendrás la capacidad de prestar tus servicios como dibujante en industrias cómo la ingeniería, el diseño industrial y la arquitectura. \n\n
+
+    <b>-</b>Conocer y comprender los fundamentos del arte.\n
+    <b>-</b>Comprender la aplicación de los cubos en perspectivas en el dibujo constructivo.\n
+    <b>-</b>Asimilar los principios básicos de la geometría y aplicar trazados fundamentales en el plano.\n
+    <b>-</b>Dominar las transformaciones geométricas elementales.\n
+    <b>-</b>Representar cuerpos y espacios simples mediante el uso de la perspectiva y las proporciones de las superficies.\n
+</string>
+
+    <string name="AllInfoAsig3">   <b>Qué aprenderás \n</b>
+lo largo del curso de informática, esperamos que nuestros aprendices puedan:\n\n
+
+    <b>-</b>Entender los principios de la computación y su evolución a través del tiempo.\n
+    <b>-</b>Reconocer los principales componentes de un computador.\n
+    <b>-</b>Comprender la complejidad de los sistemas operativos.\n
+    <b>-</b>Dominar las funcionalidades, herramientas y procesos del escritorio de Windows.\n
+    <b>-</b>Conocer los campos de aplicación y la naturaleza del software Excel.\n
+    <b>-</b>Realizar ediciones de documentos mediante Microsoft Word.\n
+
+</string>
+    string = string.replace("\\\n", System.getProperty("line.separator"));
 </resources>

@@ -30,6 +30,9 @@ public class infoAsignatura extends AppCompatActivity {
 
                 ImageView imageView = findViewById(R.id.Picture);
                 imageView.setImageResource(R.drawable.historiadelarte);
+
+                TextView info = findViewById(R.id.infoAsigActivity2);
+                info.setText(R.string.AllInfoAsig1);
                 break;
 
             case 2:
@@ -38,6 +41,9 @@ public class infoAsignatura extends AppCompatActivity {
 
                 ImageView imageView2 = findViewById(R.id.Picture);
                 imageView2.setImageResource(R.drawable.dibujotecnico);
+
+                TextView info2 = findViewById(R.id.infoAsigActivity2);
+                info2.setText(R.string.AllInfoAsig2);
                 break;
             case 3:
                 titulo = findViewById(R.id.Titulo);
@@ -45,6 +51,9 @@ public class infoAsignatura extends AppCompatActivity {
 
                 ImageView imageView3 = findViewById(R.id.Picture);
                 imageView3.setImageResource(R.drawable.informatica);
+
+                TextView info3 = findViewById(R.id.infoAsigActivity2);
+                info3.setText(R.string.AllInfoAsig1);
                 break;
         }
 
