@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,6 @@
             android:id="@+id/Titulo"
             style="@style/TitelAsig">
         </TextView>
-
 
     </FrameLayout>
 
@@ -39,8 +37,11 @@
 
         <TextView
             android:id="@+id/infoAsigActivity2"
-            style="@style/TextVActivity2"
-            android:layout_height="309dp" />
+            style="@style/TextVActivity2"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Recyclerid"
+            style="@style/Items"/>
 
 
     </FrameLayout>
